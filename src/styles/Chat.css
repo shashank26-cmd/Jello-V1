@@ -1,0 +1,133 @@
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    max-height: 100vh;
+    border: 2px solid #3b5998;
+    background-color: #1a202f;
+  }
+  .header {
+    background-color: #3b5998;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+  }
+  .header div {display: flex; align-items: center;}
+  .header div div {
+    background-color: #6382c2;
+    padding: 0 0.5rem;
+    border-radius: 10px;
+    
+    display: flex;
+    align-items: center;
+
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .header span {
+    cursor: pointer;
+  }
+  .messages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .message {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .message h6 {
+    display: none;
+    color: rgb(200, 200, 200);
+    font-family: 'Poppins';
+    transition: all 0.3s ease;
+  }
+
+  .msg-up img {
+    height: 32px;
+    width: 32px;
+    margin-right: 1rem;
+    border-radius: 50%;
+  }
+
+  .msg-up {
+    display: flex;
+    align-items: center;
+  }
+
+  .msg-up p {
+    background-color: #523a78;
+    background-image: linear-gradient(316deg, #523a78 0%, #ee696b 74%);
+    padding: 0.5rem;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .new-message-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    /* border: 1px solid white; */
+    background-color: #232b3f;
+    padding: 0 10px;
+
+    box-shadow: 0 -1rem 50px #141925;
+  }
+  
+  .new-message-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    color: white;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .send-button {
+    height: 2.5rem; width: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+
+  .send-button:hover {
+    background-color: #3b5998;
+  }
+  
+  .send-button span {
+    color: rgb(226, 226, 226);
+    transform: rotate(-30deg);
+    font-size: 2rem;
+    font-variation-settings: 'FILL' 1;
+  }
+
