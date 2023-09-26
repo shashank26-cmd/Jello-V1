@@ -35,11 +35,13 @@ const App = () => {
       room ? (
         <Chat room={room} signUserOut={signUserOut} />
       ) : (
-        <div className='room'>
-          <div>
-            <label>Enter <span>Room</span> Name:</label>
-            <input ref={roomInputRef} />
-            <button onClick={() => setRoom(roomInputRef.current.value)}>Enter Chat</button>
+        <div className='room-page'>
+          <div className='auth-box-wrap'>
+            <div className='room-box'>
+              <label>Enter <span>Room</span> Name:</label>
+              <input ref={roomInputRef} />
+              <button onClick={() => setRoom(roomInputRef.current.value)}>Enter Chat</button>
+            </div>
           </div>
         </div>
       )}

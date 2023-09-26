@@ -19,7 +19,7 @@ input::selection {outline: none}
   margin-top: 50px;
 }
 
-.room {
+.room-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,20 +29,20 @@ input::selection {outline: none}
   width: 100vw;
 }
 
-.room div {
+.room-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   width: fit-content;
-  height: 70%;
+  height: 100%;
   background-color: #1d1f20;
-  padding: 1rem;
+  padding: 1rem 4rem;
   border-radius: 3px;
 }
 
-.room label {
+.room-box label {
   font-size: 2rem;
   font-family: 'Poppins';
   color: aliceblue;
@@ -50,12 +50,12 @@ input::selection {outline: none}
   font-weight: 500;
 }
 
-.room label span {
+.room-box label span {
   color: #da2f73;
   font-weight: 600;
 }
 
-.room input {
+.room-box input {
   width: 200px;
   height: 30px;
   border: none;
@@ -68,11 +68,11 @@ input::selection {outline: none}
   margin: 5px;
 }
 
-.room input:focus{
+.room-box input:focus{
   outline: none;
 }
 
-.room button {
+.room-box button {
   width: 210px;
   height: 40px;
   border: none;
@@ -87,7 +87,7 @@ input::selection {outline: none}
   transition: all 0.3s ease;
 }
 
-.room button:hover {
+.room-box button:hover {
   transform: scale(1.2);
 }
 

@@ -7,6 +7,9 @@
     width: 100vw;
     overflow: hidden;
     position: relative;
+    background-color: #861657;
+    background-image: linear-gradient(315deg, #861657 0%, #aa4465 74%);
+
 }
 
 .auth button {

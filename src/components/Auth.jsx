@@ -18,7 +18,7 @@ const Auth = (props) => {
   }
     return (
     <div className='auth'>
-      <img className='bg-img' src="https://iili.io/JJlHVWP.jpg"/>
+      {/* <img className='bg-img' src="https://iili.io/JJlHVWP.jpg"/> */}
       <div className="auth-box-wrap">
         <div className='auth-box'>
           
